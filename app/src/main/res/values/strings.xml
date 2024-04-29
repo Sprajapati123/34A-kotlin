@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">34A</string>
+
+    <string-array name="countries">
+        <item>Nepal</item>
+        <item>India</item>
+        <item>Brazil</item>
+        <item>Cananda</item>
+        <item>USA</item>
+        <item>China</item>
+        <item>Australia</item>
+        <item>Africa</item>
+        <item>Hungary</item>
+        <item>Costa Rica</item>
+        <item>Korea</item>
+        <item>Dubai</item>
+        <item>Qatar</item>
+        <item>Pakistan</item>
+        <item>Bhutan</item>
+        <item>Sweden</item>
+        <item>Canada</item>
+        <item>Uk</item>
+
+    </string-array>
+</resources>
