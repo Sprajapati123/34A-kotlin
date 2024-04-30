@@ -5,7 +5,10 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.a34a.adapter.RecyclerAdapter
 
 class RecyclerViewActivity : AppCompatActivity() {
     lateinit var recyclerView : RecyclerView
@@ -29,6 +32,10 @@ class RecyclerViewActivity : AppCompatActivity() {
         descriptionList.add("This is apple .....")
         descriptionList.add("This is banana .....")
         descriptionList.add("This is grapes .....")
+
+        var adapter = RecyclerAdapter(titleList,imageList,descriptionList)
+        recyclerView.layoutManager = LinearLayoutManager(this)
+        recyclerView.adapter = adapter
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
