@@ -24,7 +24,7 @@ class SelectActivity : AppCompatActivity() {
 
         button.setOnClickListener {
             var intent = Intent(this@SelectActivity,
-                RecyclerViewActivity::class.java)
+                SecondActivity::class.java)
             intent.putExtra("name",editTextName.text)
             intent.putExtra("address",editTextAddress.text)
             startActivity(intent)
