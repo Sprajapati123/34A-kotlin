@@ -2,9 +2,6 @@
 <project version="4">
   <component name="deploymentTargetDropDown">
     <value>
-      <entry key="DateTimeActivity">
-        <State />
-      </entry>
       <entry key="GridViewActivity">
         <State />
       </entry>
@@ -23,6 +20,9 @@
           </targetSelectedWithDropDown>
           <timeTargetWasSelectedWithDropDown value="2024-04-25T04:55:18.588589Z" />
         </State>
+      </entry>
+      <entry key="RecyclerViewActivity">
+        <State />
       </entry>
       <entry key="ScrollViewActivity">
         <State />
