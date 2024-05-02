@@ -25,8 +25,10 @@ class SelectActivity : AppCompatActivity() {
         button.setOnClickListener {
             var intent = Intent(this@SelectActivity,
                 SecondActivity::class.java)
-            intent.putExtra("name",editTextName.text)
-            intent.putExtra("address",editTextAddress.text)
+            var name : String ? = editTextName.text.toString()
+            var address : String ? = editTextAddress.text.toString()
+            intent.putExtra("name",name)
+            intent.putExtra("address",address)
             startActivity(intent)
 //          finish()
 
