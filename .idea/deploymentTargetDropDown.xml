@@ -5,26 +5,13 @@
       <entry key="GridViewActivity">
         <State />
       </entry>
-      <entry key="ListViewActivity">
-        <State>
-          <targetSelectedWithDropDown>
-            <Target>
-              <type value="QUICK_BOOT_TARGET" />
-              <deviceKey>
-                <Key>
-                  <type value="VIRTUAL_DEVICE_PATH" />
-                  <value value="C:\Users\sandi\.android\avd\Pixel_6a_API_30.avd" />
-                </Key>
-              </deviceKey>
-            </Target>
-          </targetSelectedWithDropDown>
-          <timeTargetWasSelectedWithDropDown value="2024-04-25T04:55:18.588589Z" />
-        </State>
+      <entry key="NewActivity">
+        <State />
       </entry>
       <entry key="RecyclerViewActivity">
         <State />
       </entry>
-      <entry key="ScrollViewActivity">
+      <entry key="SelectActivity">
         <State />
       </entry>
       <entry key="WebActivity">
