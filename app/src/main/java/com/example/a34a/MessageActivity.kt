@@ -51,6 +51,7 @@ class MessageActivity : AppCompatActivity() {
         var editor = sharedPreferences.edit()
         editor.putString("username",username)
         editor.putString("message",message)
+        editor.putInt("counter",counter)
         editor.putBoolean("remember",rememberMe!!)
 
         editor.apply()
@@ -59,5 +60,20 @@ class MessageActivity : AppCompatActivity() {
             Toast.LENGTH_LONG).show()
 
         super.onPause()
+    }
+
+    override fun onResume() {
+        sharedPreferences = this.getSharedPreferences("userValue", MODE_PRIVATE)
+
+        username = sharedPreferences.getString("username","")
+        message = sharedPreferences.getString("message","")
+        rememberMe = sharedPreferences.getBoolean("remember",false)
+        counter = sharedPreferences.getInt("counter",0)
+
+        messageBinding.idUsername.setText(username)
+        messageBinding.idMessage.setText(message)
+        messageBinding.remeberMe.isChecked = rememberMe!!
+        messageBinding.btnCounter.text = counter.toString()
+        super.onResume()
     }
 }
