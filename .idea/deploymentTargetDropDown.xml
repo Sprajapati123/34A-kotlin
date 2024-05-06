@@ -5,6 +5,9 @@
       <entry key="GridViewActivity">
         <State />
       </entry>
+      <entry key="MessageActivity">
+        <State />
+      </entry>
       <entry key="NewActivity">
         <State />
       </entry>
@@ -12,9 +15,6 @@
         <State />
       </entry>
       <entry key="SelectActivity">
-        <State />
-      </entry>
-      <entry key="WebActivity">
         <State />
       </entry>
       <entry key="app">

@@ -73,6 +73,7 @@ class MessageActivity : AppCompatActivity() {
         messageBinding.idUsername.setText(username)
         messageBinding.idMessage.setText(message)
         messageBinding.remeberMe.isChecked = rememberMe!!
+
         messageBinding.btnCounter.text = counter.toString()
         super.onResume()
     }
