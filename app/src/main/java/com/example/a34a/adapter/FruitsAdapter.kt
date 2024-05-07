@@ -11,7 +11,6 @@ import com.example.a34a.R
 class FruitsAdapter(var nameList: ArrayList<String>, var imageList: ArrayList<Int>) :
     BaseAdapter() {
 
-
     override fun getCount(): Int {
         return nameList.size
     }

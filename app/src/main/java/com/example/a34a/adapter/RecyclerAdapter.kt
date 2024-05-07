@@ -19,7 +19,6 @@ class RecyclerAdapter(
         var descrription : TextView = view.findViewById(R.id.textViewDescription)
         var images : ImageView = view.findViewById(R.id.imageView3)
     }
-
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): FruitsViewHolder {
         var view : View = LayoutInflater.from(parent.context).inflate(R.layout.sample_recycler_view_1,parent,false)
 
