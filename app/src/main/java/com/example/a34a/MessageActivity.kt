@@ -2,6 +2,7 @@ package com.example.a34a
 
 import android.content.SharedPreferences
 import android.os.Bundle
+import android.util.Log
 import android.widget.EditText
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
@@ -76,5 +77,6 @@ class MessageActivity : AppCompatActivity() {
 
         messageBinding.btnCounter.text = counter.toString()
         super.onResume()
+
     }
 }
