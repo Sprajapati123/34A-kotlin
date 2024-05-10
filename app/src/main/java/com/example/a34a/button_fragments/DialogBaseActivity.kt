@@ -21,6 +21,8 @@ class DialogBaseActivity : AppCompatActivity() {
             var fragmentManager : FragmentManager = supportFragmentManager
 
             var dataFragment = DataFragment()
+
+            // set weather dialog is cancelable or not
             dataFragment.isCancelable = false
 
             dataFragment.show(fragmentManager,"DataFragment")
