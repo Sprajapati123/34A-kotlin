@@ -2,25 +2,46 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_height="match_parent"
     tools:context=".fragments.FirstFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="30sp"
-        android:id="@+id/lblEmail"
-        android:textColor="@color/black"
-        android:text="Hello first fragment" />
+        app:counterEnabled="true"
+        app:counterMaxLength="10">
 
-    <TextView
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter age"
+            android:id="@+id/idAge"
+            android:inputType="number" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="30sp"
-        android:id="@+id/lblPassword"
-        android:textColor="@color/black"
-        android:text="Hello first fragment" />
+        app:counterMaxLength="10"
+        app:counterEnabled="true"
+        android:layout_height="wrap_content">
 
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/idName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter name" />
+
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnNavigate3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Send data to activity" />
 </LinearLayout>
