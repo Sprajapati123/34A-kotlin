@@ -8,13 +8,13 @@
       <entry key="DialogBaseActivity">
         <State />
       </entry>
+      <entry key="FragmentToActivity">
+        <State />
+      </entry>
+      <entry key="MainActivity2">
+        <State />
+      </entry>
       <entry key="MessageActivity">
-        <State />
-      </entry>
-      <entry key="NewActivity">
-        <State />
-      </entry>
-      <entry key="SelectActivity">
         <State />
       </entry>
       <entry key="app">

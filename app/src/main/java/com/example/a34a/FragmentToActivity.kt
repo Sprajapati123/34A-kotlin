@@ -25,7 +25,7 @@ class FragmentToActivity : AppCompatActivity() {
 //        fragmentTransaction.commit()
 //
         supportFragmentManager.beginTransaction().
-        replace(R.id.frameLayout3,FirstFragment()).commit()
+        replace(R.id.frameLayout4,FirstFragment()).commit()
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
